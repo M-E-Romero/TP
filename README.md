@@ -1,0 +1,25 @@
+```mermaid
+graph TD
+A[Ecosistema Web]
+A-->B[Arquitectura Cliente-Servidor]
+B-->B1[Cliente]
+B1-->B11[Navegador web]
+B1-->B12[URL]
+B1--> B13[HTTP/HTTPS]
+B-->B2[Servidor]
+B2-->B21[Servidor web]
+B2-->B22[Hosting]
+B2-->B23[IP]
+
+A-->C[Contenido web]
+C-->C1[Sitio web]
+C1-->C12[Pagina web]
+C12-->C121[Dinamica]
+C12-->C122[Estatica]
+C-->C2[Aplicaciones web]
+
+A-->D[Desarrollo web]
+D-->D1[Frontend]
+D-->D2[Backend]
+D-->D3[API]
+D-->D4[Framework]
